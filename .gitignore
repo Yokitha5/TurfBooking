@@ -1,10 +1,11 @@
-# ================= FRONTEND (React) =================
+# ================= FRONTEND (React / Vite) =================
 node_modules/
-dist/
-build/
 coverage/
 .next/
 out/
+
+# keep dist ignored (gh-pages will handle it)
+dist/
 
 # ================= BACKEND (Spring Boot / Java) =================
 target/
@@ -52,6 +53,6 @@ Thumbs.db
 /test-output/
 /surefire-reports/
 
-# ================= DATABASE FILES (if any local) =================
+# ================= DATABASE FILES =================
 *.db
 *.sqlite
